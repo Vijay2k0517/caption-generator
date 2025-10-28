@@ -1,0 +1,25 @@
+name: smart_caption_generator
+description: A modern Flutter app to generate Instagram captions from images.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  image_picker: ^1.1.2
+  share_plus: ^10.0.2
+  provider: ^6.1.2
+  flutter_svg: ^2.0.10+1
+  http: ^1.2.2
+  mime: ^1.0.5
+  http_parser: ^4.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/

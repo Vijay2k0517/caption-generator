@@ -1,0 +1,35 @@
+# Top-level ignores for this monorepo (Flutter app + Python backend)
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.iml
+
+# Node (none used currently, but common)
+node_modules/
+
+# Python common (if created at repo root)
+venv/
+.venv/
+ENV/
+env/
+
+# Environment files (keep secrets out of git)
+.env
+.env.*
+
+# Logs
+*.log
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Mac metadata in nested dirs
+**/.DS_Store
